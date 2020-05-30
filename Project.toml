@@ -1,0 +1,18 @@
+name = "TestBukdu"
+uuid = "2af0259b-079b-4eb3-948d-bde9cfd5d686"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Bukdu = "3e78a19a-cc83-51d8-955b-515f39fd7955"
+
+[compat]
+Bukdu = "0.4"
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+
+[targets]
+test = ["Test", "Jive"]
